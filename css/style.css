@@ -1,0 +1,643 @@
+@font-face {
+    font-family: Diner Bold;
+    src: url(../fontes/Diner\ Bold.otf);
+}
+
+html{scroll-behavior:smooth;}
+
+.containerado {
+    width: 90%;
+    margin: auto;
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgba(83, 106, 124, 1) 0%, rgba(113, 107, 123, 1) 48%, rgba(50, 105, 125, 1) 100%);
+    /* Fallback */
+    animation: color 5s infinite linear;
+    padding: 1em;
+}
+
+#correto {
+    width: 3%;
+    margin-top: 3px;
+}
+
+.menuprimeiro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5em;
+}
+
+.logotipo {
+    text-align: center;
+    width: 15em;
+}
+
+.logotipo img {
+    width: 60%;
+}
+
+
+.menualto {
+    text-align: center;
+    width: 15em;
+}
+
+.menualto img {
+    width: 30%;
+}
+
+
+#botaomenu {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+.bannerpri {
+    text-align: center;
+    height: 25vw;
+    margin-top: 4vw;
+    padding-top: 4vw;
+    color: rgb(255, 255, 255);
+}
+
+.bannerpri h1 {
+    font-size: 6.5em;
+    text-transform: uppercase;
+    padding: 45px 0px 45px 0px;
+    width: 60%;
+    margin: auto;
+    border-top: 3px solid rgb(253, 253, 253);
+    border-bottom: 3px solid rgb(248, 248, 248);
+    margin-bottom: 2vw;
+}
+
+
+/*   Primeiro Grid       */
+
+.imagemP {
+    text-align: center;
+
+}
+
+.imagemP img {
+    width: 80%;
+    filter: drop-shadow(3px 23px 10px #ffffff)
+}
+
+.bonga {
+    width: 90%;
+    text-align: center;
+    padding: 1vw;
+    margin: auto;
+}
+
+.textosb {
+    padding: 10px;
+    text-align: left;
+}
+
+.textosb h3 {
+    color: rgb(0, 0, 0);
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+    font-size: 3vw;
+}
+
+.textosb p {
+    text-align: justify;
+    margin-bottom: 4em;
+}
+
+
+.paraver img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.paraver ul {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.paraver ul li {
+    list-style: none;
+}
+
+.paraver ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    width: 100%;
+    transition: all 2s;
+    text-align: start;
+    color: #000000;
+}
+
+.paraver ul li a:hover {
+    background-color: #37697d;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+
+/*  Quadros  de serviços  */
+
+.servico {
+    background-color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+}
+
+#salostitulos {
+    margin-top: 15px;
+    font-size: 3em;
+}
+
+
+#acertarimagemQuadros {
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.efeitoHover {
+    transition: all 1s;
+}
+
+.efeitoHover:hover {
+    background-color: #111e25af;
+    box-shadow: solid 5px 2px 8px 5px black;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#acertaritextoQuadros {
+    height: 15em;
+    overflow: hidden;
+    text-align: justify;
+}
+
+/*    <!-- Experiencias Profissionais--> */
+.indicacao {
+    width: 100%;
+    margin: auto;
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgb(122, 122, 122) 0%, rgb(135, 108, 179) 48%, rgb(193, 195, 196) 100%);
+    /* Fallback */
+    animation: color 7s infinite linear;
+    padding: 1em;
+    
+}
+
+.fundoCard {
+    padding: 0;
+    margin: 2px;
+}
+
+.fundoCard2 {
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgba(83, 106, 124, 1) 0%, rgba(113, 107, 123, 1) 48%, rgba(50, 105, 125, 1) 100%);
+    color: #000000;
+    border: none;
+    box-shadow: 9px 6px 5px 5px solid rgb(255, 255, 255);
+}
+
+.fundoCard2 a {
+    color: #000000;
+    font-weight: bold;
+}
+
+#textoDirecto {
+    margin-top: 10px;
+    text-align: justify;
+    overflow: hidden;
+    height: 8em;
+    color: #ffffff;
+}
+
+
+
+/* !-- Outros Serviços --> */
+
+.incolher {
+    height: 10vw;
+    overflow: hidden;
+}
+
+.centarilizatudo {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.elementos {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.redessociaisM {
+    text-align: center;
+}
+
+.redessociaisM img {
+    width: 10%;
+    display: inline-block;
+}
+
+/* Ultimo quem somos */
+.quemsouP {
+    background-color: #64cbc0;
+    padding: 40px 0px 40px 0px;
+}
+
+#ajustartext {
+    height: 12em;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.capela img {
+    width: 100%;
+}
+
+.tirarborda {
+    border: none;
+    background-color: #64cbc0;
+}
+
+.mandar {
+    margin-top: 3em;
+}
+
+.tirarborda p {
+    margin-top: 4em;
+}
+
+#assinatura {
+    width: 30%;
+    margin-top: 20px;
+}
+
+
+/* formulario */
+
+.FormulaCadasroCen {
+    padding-top: 20px;
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgb(122, 122, 122) 0%, rgb(135, 108, 179) 48%, rgb(193, 195, 196) 100%);
+    /* Fallback */
+    animation: color 7s infinite linear;
+}
+
+.fundouro {
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgba(83, 106, 124, 1) 0%, rgba(113, 107, 123, 1) 48%, rgba(50, 105, 125, 1) 100%);
+    border: none; 
+    padding: 10px;
+}
+
+
+.cartaoformulario input{margin-bottom: 20px;}
+.cartaoformulario h2{margin-bottom: 40px; color: #ffffff;}
+.cartaoformulario textarea{height: 120px;}
+.cartaoformulario button{margin-top: 20px; background-color: #034926; color: #ffffff; border: solid 2px #ffffff;}
+.cartaoendereco p{ text-align: justify; color: #f6f6f6;}
+.cartaoendereco a{  color: #000000; font-weight: bold;}
+
+
+@keyframes color {
+    0% {
+        background: #7a5e7e;
+    }
+
+    20% {
+        background: #37697d;
+    }
+
+    40% {
+        background: #3d2d39;
+    }
+
+    60% {
+        background: #1c323f;
+    }
+
+    80% {
+        background: #39697d;
+    }
+
+    100% {
+        background: #5e4c57;
+    }
+}
+
+
+
+
+@media (max-width: 2560px) {
+    .bannerpri h1 {
+        font-size: 6vw;
+        padding: 8px 0px 8px 0px;
+        width: 80%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 3vw;
+        font-weight: bold;
+    }
+
+    .bannerpri h2 {
+        font-size: 3em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+
+    #particles-js {
+        background-size: 100%;
+        height: 90vw;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 19em;
+      
+    }
+    
+    .logotipo img {
+        width:90%;
+    }
+
+    .imagemP {
+        text-align: center;
+    
+    }
+    
+    .imagemP img {
+        width: 40%;
+        filter: drop-shadow(3px 23px 10px #ffffff)
+    }
+    
+    
+ 
+}
+
+@media (max-width: 1870px) {
+    .bannerpri h1 {
+        font-size: 6vw;
+        padding: 8px 0px 8px 0px;
+        width: 80%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 3vw;
+        font-weight: bold;
+    }
+
+    .bannerpri h2 {
+        font-size: 3em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 17em;
+      
+    }
+    
+    .logotipo img {
+        width:90%;
+    }
+    
+
+
+}
+
+@media (max-width: 1024px) {
+    .bannerpri h1 {
+        font-size: 8vw;
+        padding: 8px 0px 8px 0px;
+        width: 100%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 3vw;
+        font-weight: bold;
+    }
+
+    .bannerpri h2 {
+        font-size: 2em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 16em;
+      
+    }
+    
+    .logotipo img {
+        width:100%;
+    }
+
+    .imagemP {
+        text-align: center;
+    
+    }
+    
+    .imagemP img {
+        width: 80%;
+        filter: drop-shadow(3px 23px 10px #ffffff)
+    }
+    
+    
+}
+
+@media (max-width: 1200px) {
+    .bannerpri h1 {
+        font-size: 8vw;
+        padding: 8px 0px 8px 0px;
+        width: 100%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 3vw;
+        font-weight: bold;
+    }
+
+    .bannerpri h2 {
+        font-size: 2em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 16em;
+      
+    }
+    
+    .logotipo img {
+        width:100%;
+    }
+
+    .imagemP {
+        text-align: center;
+    
+    }
+    
+    .imagemP img {
+        width: 40%;
+        filter: drop-shadow(3px 23px 10px #ffffff)
+    }
+    
+    
+}
+
+
+@media (max-width: 910px) {
+    .bannerpri h1 {
+        font-size: 8vw;
+        padding: 5px 0px 5px 0px;
+        width: 100%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 3vw;
+    }
+
+    .bannerpri h2 {
+        font-size: 2em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 12em;
+      
+    }
+    
+    .logotipo img {
+        width:100%;
+    }
+
+    .imagemP {
+        text-align: center;
+    
+    }
+    
+    .imagemP img {
+        width: 90%;
+        filter: drop-shadow(3px 23px 10px #ffffff)
+    }
+    
+    
+}
+
+
+
+@media (max-width: 700px) {
+    .bannerpri h1 {
+        font-size: 5vw;
+        text-transform: uppercase;
+        padding: 3px 0px 3px 0px;
+        width: 100%;
+        margin: auto;
+        border-top: 1px solid rgb(253, 253, 253);
+        border-bottom: 3px solid rgb(248, 248, 248);
+        margin-bottom: 2vw;
+    }
+
+    .bannerpri h2 {
+        font-size: 1em;
+
+    }
+
+    .menuprimeiro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+    }
+
+
+
+    .logotipo {
+        text-align: center;
+        width: 10em;
+      
+    }
+    
+    .logotipo img {
+        width:60%;
+    }
+
+
+    .imagemP {
+        text-align: center;
+    
+    }
+    
+    .imagemP img {
+        width: 90%;
+        filter: drop-shadow(3px 23px 10px #ffffff)
+    }
+    
+    
+}
+

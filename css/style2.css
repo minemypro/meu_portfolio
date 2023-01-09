@@ -1,0 +1,20 @@
+/* --Banner geral-*/
+
+
+.bannergeral {
+     margin: auto;
+    width: 90%;
+    margin: auto;
+    background: rgb(83, 106, 124);
+    background: linear-gradient(90deg, rgba(83, 106, 124, 1) 0%, rgba(113, 107, 123, 1) 48%, rgba(50, 105, 125, 1) 100%);
+    /* Fallback */
+    animation: color 5s infinite linear;
+    padding: 1em;
+}
+
+.menulogoM{width: 90%; display: flex; align-items: center; justify-content: space-between;}
+.logotipo{width: 20%; background-color: aqua;}
+.logotipo img{width: 100%;}
+
+.menualto{width: 20%; background-color: rgb(10, 48, 59);}
+#icomMenu{width: 100%;}
